@@ -1,0 +1,7 @@
+testjob1:
+   workstages: ["deploy","benchmark"]
+   disk:
+     read_ahead_kb: 2048
+   pool:
+     rbd:
+       size: 2
